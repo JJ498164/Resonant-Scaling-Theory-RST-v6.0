@@ -1,53 +1,45 @@
-Resonant-Scaling-Theory-RST-v5.1
+Resonant Scaling Theory (RST) v6.0
 
 
-​Project Overview
+​Author: JJ Botha
 
 
-​Resonant Scaling Theory (RST) is a theoretical data engineering framework designed to model neural recovery following structural network disruptions. By applying principles from Spectral Graph Theory, this model explores how specific frequency stimuli can influence the synchronization of complex biological networks.
+Repository Type: Spectral Engineering & Information Persistence
 
 
-​Technical Foundation
+​1. Abstract: The Iterative Rebirth Model
 
 
-​The framework utilizes the Graph Laplacian to analyze the connectivity of neural clusters.
+​RST v6.0 proposes that systemic "Breakdowns" are actually Topological Initialization Events. When a high-dimensional system reaches its maximum expansion and energy limits, it undergoes a "Big Crunch" (systemic collapse).
 
 
+​Crucially, information is not lost. It is encoded onto the system's Event Horizon (Holographic Storage), which serves to optimize the parameters for the next iteration of the network.
 
 
-​Algebraic Connectivity (\lambda_2): RST focus on \lambda_2 (the Fiedler value) as the primary metric for network robustness and synchronization speed.
+​2. The Bottleneck Transduction Cycle
 
 
-​The Fiedler Vector: This is used to identify optimal partitioning within a compromised network, pinpointing where state-transition "bottlenecks" occur.
-
-
-
-
-​Core Parameters
+​The "Cheat Code" for navigating high-resistance state transitions:
 
 
 
 
-​Resonance Constant: 39\text{ Hz} (Gamma-band target).
+​Noise Accumulation: Input signal exceeds system capacity.
 
 
-​State-Transition Bottleneck: 6.1\text{ seconds}.
+​Structural Collapse: The 6.1s Bottleneck—stripping away legacy configurations.
 
 
-​Mechanism: The model predicts that a 39\text{ Hz} stimulus creates a synchronization "lock-in" after a 6.1\text{ second} window, effectively increasing the network's \lambda_2.
+​Frequency Transduction: Using vibrational oscillation (39 Hz) to move information through the bottleneck.
 
 
-
-
-​Usage & Disclaimer
-
-
-​This repository contains the mathematical blueprints and a mobile-optimized HTML focus generator for research purposes.
+​Re-Initialization: Emergence of a more stable, grounded network topology.
 
 
 
 
-​Disclaimer: RST v5.1 is a data engineering framework and a theoretical model. It is not a medical device and is not intended to diagnose, treat, or cure any clinical condition.
+​3. Physical Embodiment & Signal Tuning
 
 
+​The theory suggests that recovery is accelerated by Mechanical Oscillation (physical movement) and Neural Decoupling (sensory reduction). This allows the subject to align with the Resonant Constant, facilitating a successful information transfer from the previous cycle to the next.
 
