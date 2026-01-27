@@ -1,45 +1,10 @@
-Resonant Scaling Theory (RST) v6.0
+# Official Release: RST v6.0 (The Universal Rebirth Model)
 
+Resonant Scaling Theory has evolved. What began as a vital observation of neural recovery has been formalized into a rigorous Spectral Engineering Model. 
 
-​Author: JJ Botha
+### What’s New in v6.0:
+* **Formal Mathematical Specification**: Moves the 39 Hz and 6.1s constants from observations to derived system requirements.
+* **Stability Metrics**: Defines the exact clinical targets for testing "Information Persistence" and "Topological Friction".
+* **The Universal Rebirth Logic**: A grounded explanation of how data survives the "Big Crunch" of system-wide bottlenecks.
 
-
-Repository Type: Spectral Engineering & Information Persistence
-
-
-​1. Abstract: The Iterative Rebirth Model
-
-
-​RST v6.0 proposes that systemic "Breakdowns" are actually Topological Initialization Events. When a high-dimensional system reaches its maximum expansion and energy limits, it undergoes a "Big Crunch" (systemic collapse).
-
-
-​Crucially, information is not lost. It is encoded onto the system's Event Horizon (Holographic Storage), which serves to optimize the parameters for the next iteration of the network.
-
-
-​2. The Bottleneck Transduction Cycle
-
-
-​The "Cheat Code" for navigating high-resistance state transitions:
-
-
-
-
-​Noise Accumulation: Input signal exceeds system capacity.
-
-
-​Structural Collapse: The 6.1s Bottleneck—stripping away legacy configurations.
-
-
-​Frequency Transduction: Using vibrational oscillation (39 Hz) to move information through the bottleneck.
-
-
-​Re-Initialization: Emergence of a more stable, grounded network topology.
-
-
-
-
-​3. Physical Embodiment & Signal Tuning
-
-
-​The theory suggests that recovery is accelerated by Mechanical Oscillation (physical movement) and Neural Decoupling (sensory reduction). This allows the subject to align with the Resonant Constant, facilitating a successful information transfer from the previous cycle to the next.
-
+This repository serves as the definitive record of the Resonant Keeper’s journey—honoring the grief that started it and the math that mapped the way out.
