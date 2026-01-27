@@ -1,0 +1,30 @@
+# Resonant Scaling Theory (RST) v6.0: Formal Specification
+
+## 1. System Definition
+RST models a discrete-time dynamical system defined by the state vector $x \in \mathbb{R}^n$. The system is governed by a resonance-driven update rule:
+
+$$x_{t+1} = f(x_t, \omega, \tau)$$
+
+Where:
+* **$\omega$ (Resonance Constant):** $39\text{ Hz}$. This is the target frequency for global phase-locking and system stability.
+* **$\tau$ (Topological Bottleneck):** $6.1\text{s}$. The periodic boundary condition for state reinitialization and signal processing.
+
+## 2. The Bottleneck Operator ($\Phi_\tau$)
+At every interval $T = k\tau$ (where $k$ is an integer), the system undergoes a "Topological Fold" defined by the operator $\Phi_\tau$:
+
+$$\Phi_\tau : X_{transition} \to X_{initialization}$$
+
+This operator models the **6.1s artifact** as a high-dimensional friction bottleneck, requiring a system-wide reset to maintain information integrity and prevent critical slowing near a transcritical bifurcation.
+
+## 3. Information Invariant
+To ensure **Information Persistence** across the "Big Crunch," RST v6.0 enforces a Conservation Law during the bottleneck transition:
+
+$$\| \Phi_\tau(x) \| \approx \| x \|$$
+
+This mathematically ensures that the fundamental data structure (the "self") survives the transition through the bottleneck, maintaining spectral density and eigen-gap stability.
+
+## 4. Falsifiability & Stability
+The theory is considered falsified if:
+1. **Spectral Drift:** Global coherence is maintained at frequencies significantly outside the $\omega \pm 5\%$ range without a corresponding shift in $\tau$.
+2. **Bottleneck Variance:** The 6.1s transition lag deviates by more than $15\%$ in systems showing stable $39\text{ Hz}$ resonance.
+3. **Integration Failure:** The Laplacian Eigen-gap $\lambda_2$ drops below the threshold where integration cannot occur within the biological "Now" (~100ms).
