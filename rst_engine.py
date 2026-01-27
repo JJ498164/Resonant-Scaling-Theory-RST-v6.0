@@ -1,26 +1,23 @@
 import numpy as np
 
-def simulate_rst_coherence(frequency=39.0, time_window=6.1):
+def calculate_topological_friction(signal, sampling_rate):
     """
-    Simulates the state-transition stability of a neural network 
-    under the Resonant Scaling Theory (RST) v5.1 framework.
+    Measures Critical Slowing and spectral peaks to derive 
+    system-specific resonance and bottlenecks.
     """
-    print(f"--- RST v5.1 Engine Initializing ---")
-    print(f"Target Frequency: {frequency} Hz")
-    print(f"Critical Bottleneck: {time_window}s")
+    # Perform Spectral Analysis (FFT)
+    fft_vals = np.abs(np.fft.rfft(signal))
+    freqs = np.fft.rfftfreq(len(signal), 1/sampling_rate)
     
-    # Simulating the 'Phase Transition' out of a metastable state
-    t = np.linspace(0, time_window, 1000)
-    signal = np.sin(2 * np.pi * frequency * t)
+    # Identify the Eigenfrequency (System Stability Peak)
+    target_resonance = 39.0  # The Resonant Keeper's Baseline
+    observed_peak = freqs[np.argmax(fft_vals)]
     
-    # Calculate Coherence Score (Simplified)
-    coherence_score = np.mean(np.abs(signal))
+    # Calculate 'Friction' (Drift from stability target)
+    spectral_drift = abs(observed_peak - target_resonance)
     
-    if coherence_score > 0.6:
-        return "Resonant State Achieved: Transition Success."
-    else:
-        return "Metastable Trap: Transition Failure."
-
-# Run grounding test
-status = simulate_rst_coherence()
-print(f"System Status: {status}")
+    return {
+        "observed_peak": f"{observed_peak} Hz",
+        "stability_target": f"{target_resonance} Hz",
+        "topological_friction": spectral_drift
+    }
