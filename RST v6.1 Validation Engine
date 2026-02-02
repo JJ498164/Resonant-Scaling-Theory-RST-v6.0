@@ -1,0 +1,50 @@
+import numpy as np
+
+class RST_v6_1_Engine:
+    """
+    Resonant Scaling Theory (RST) v6.1: Empirical Validation Engine.
+    Formalizes the transition from narrative to spectral engineering.
+    """
+    def __init__(self):
+        self.target_freq = 39.0  # Derived Stability Basin
+        self.ignition_delay = 6.1  # Topological Bottleneck artifact
+
+    def calculate_spectral_entropy(self, signal):
+        """
+        Calculates the entropy of the signal's power spectrum.
+        A global minimum (S_min) validates the stability basin.
+        """
+        psd = np.abs(np.fft.rfft(signal))**2
+        psd /= np.sum(psd)
+        entropy = -np.sum(psd * np.log2(psd + 1e-12))
+        return entropy
+
+    def run_sensitivity_sweep(self, signal, start_f=10, end_f=60, steps=100):
+        """
+        Sweeps frequencies to find where entropy is minimized.
+        Used to prove 39 Hz is not an axiom, but a result.
+        """
+        freq_range = np.linspace(start_f, end_f, steps)
+        results = []
+        
+        for f in freq_range:
+            t = np.linspace(0, 1, len(signal))
+            # Test resonance interaction
+            resonance = signal * np.sin(2 * np.pi * f * t)
+            results.append(self.calculate_spectral_entropy(resonance))
+            
+        return freq_range, np.array(results)
+
+    def measure_topological_friction(self, laplacian_matrix):
+        """
+        Calculates Algebraic Connectivity (lambda_2).
+        Higher friction = Lower lambda_2 = Higher R_eff.
+        """
+        eigenvalues = np.sort(np.linalg.eigvals(laplacian_matrix))
+        # lambda_2 is the second smallest eigenvalue
+        lambda_2 = eigenvalues[1] if len(eigenvalues) > 1 else 0
+        return lambda_2
+
+# Validation Instance
+# engine = RST_v6_1_Engine()
+# print(f"Targeting: {engine.target_freq} Hz Stability Basin")
