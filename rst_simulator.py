@@ -1,25 +1,34 @@
 import numpy as np
 import networkx as nx
+from scipy.linalg import eigvals
 
-def calculate_resonant_connectivity(nodes, resonance_freq=39):
-    """
-    Calculates the Fiedler Vector and Algebraic Connectivity (Lambda_2)
-    to model neural recovery pathways at a specific frequency.
-    """
-    # Create a random graph representing a neural network
-    G = nx.erdos_renyi_graph(nodes, 0.3)
-    laplacian = nx.laplacian_matrix(G).toarray()
+def run_rst_v52_sim(nodes=100, target_tau=4.17):
+    # 1. Setup 'Sheared' Topology (Two 50-node cliques, 1 bridge)
+    G = nx.connected_caveman_graph(2, 50)
     
-    # Eigenvalues represent the 'Spectral' health of the network
-    eigenvalues = np.linalg.eigvalsh(laplacian)
-    lambda_2 = eigenvalues[1] # Algebraic Connectivity
+    def get_metrics(graph):
+        L = nx.laplacian_matrix(graph).toarray()
+        ev = np.sort(eigvals(L).real)
+        l2 = ev[1]  # Algebraic Connectivity
+        tau = 1/l2 if l2 > 0 else float('inf')
+        return l2, tau
+
+    l2, tau = get_metrics(G)
+    print(f"Initial State: λ2={l2:.4f}, τ={tau:.2f} (Stalled)")
+
+    # 2. Adaptive Bridging (The Gamma Cycle Loop)
+    cycles = 0
+    while tau > target_tau:
+        # Simulate one 39Hz Gamma Cycle adding 1 Synthetic Edge
+        nodes_list = list(G.nodes())
+        u, v = np.random.choice(nodes_list, 2, replace=False)
+        if not G.has_edge(u, v):
+            G.add_edge(u, v)
+            cycles += 1
+            l2, tau = get_metrics(G)
     
-    return lambda_2
+    print(f"Restored State: λ2={l2:.4f}, τ={tau:.2f}")
+    print(f"Recovery complete in {cycles} Gamma Cycles (~{cycles * 25.6:.1f}ms at 39Hz)")
 
-# Simulation Parameters
-coherence_constant = 39  # Hz
-transition_bottleneck = 6.1  # Seconds
-
-print(f"RST v5.1 Engine Initialized.")
-print(f"Monitoring 39Hz Resonance... Coherence detected.")
-print(f"Network Stability (Lambda_2): {calculate_resonant_connectivity(100):.4f}")
+if __name__ == "__main__":
+    run_rst_v52_sim()
