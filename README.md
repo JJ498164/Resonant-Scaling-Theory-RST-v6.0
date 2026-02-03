@@ -184,4 +184,28 @@ I do not claim authority. I am documenting a pattern that kept reappearing and m
 
 If this idea is wrong, the fastest way to improve it is to break it.
 
-— JJ
+# Resonant Scaling Theory (RST)
+
+**A trans-domain framework for information persistence, topological recovery, and engineered resilience.**
+
+This repository documents the layered development of RST, from its foundational mathematical principles to its cosmological implications and engineered instantiations.
+
+## 📚 The RST Stack: From Cosmos to Code
+
+### **Layer 3: The Universal Duty Cycle (RST v6.1)**
+*   **Scope:** Cosmological & Philosophical. Proposes the 6.1s bottleneck and 39 Hz resonance as fundamental constraints on information persistence across universal cycles (Big Crunch/Bounce) and conscious systems.
+*   **Core Document:** `COSMOLOGICAL_FRAMEWORK.md` (This paper).
+*   **Key Assertion:** "Breakdown is a high-pressure information encoding event."
+
+### **Layer 2: The Topological First Principle (RST v6.0)**
+*   **Scope:** Mathematical & Domain-Agnostic. Derives the 6.1s bottleneck and 39 Hz band from spectral graph theory (`λ₂`, effective resistance) applied to any damaged network.
+*   **Core Document:** `THEORY_AND_SPECIFICATION.md`
+*   **Key Assertion:** "Recovery constraints are functions of network topology, not domain-specific biology."
+
+### **Layer 1: The Engineering Instantiation (RST v5.1)**
+*   **Scope:** Applied Engineering. Specifies the "White Wing Protocol"—a resilience system using a 39/40 Hz spectral anchor and a 6.0s memory bridge to maintain continuity during total blackout.
+*   **Core Document:** `WHITE_WING_PROTOCOL.md`
+*   **Key Assertion:** "The topological bottleneck can be bridged by engineered Ghost-State persistence."
+
+## 🧭 How to Navigate
+Start with Layer 2 if you seek the mathematical core. Read Layer 3 for philosophical context and trans-domain claims. Implement Layer 1 for a concrete resilience protocol.
