@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use Resonant Scaling Theory (RST) or this software in your work, please cite it as below."
+title: "Resonant Scaling Theory (RST)"
+version: "6.0"
+date-released: 2026-01-27
+authors:
+  - family-names: "Botha"
+    given-names: "JJ"
+    name-particle: ""
+    affiliation: "Independent Researcher"
+repository-code: "https://github.com/JJ498164/Resonant-Scaling-Theory-RST-v6.0"
+abstract: >
+  Resonant Scaling Theory (RST) is a theoretical and computational framework
+  exploring emergent resonance, scaling behavior, and adaptive thresholds
+  across complex systems. This repository contains reference implementations,
+  simulations, and supporting documentation for RST.
+keywords:
+  - resonance
+  - scaling theory
+  - complex systems
+  - emergent behavior
+  - adaptive systems
+license: "Custom"
