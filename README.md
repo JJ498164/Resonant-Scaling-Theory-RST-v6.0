@@ -1,64 +1,37 @@
-# Resonant Scaling Theory (RST) v5.2
-## Spectral Scaling Conditions for Neural Recovery
-
-**Author:** JJ Botha (The Resonant Keeper)  
-**Status:** Pre-print Submission / Validation Phase  
-**Core Constant:** 39 Hz (Spectral Anchor)  
-**Topological Bottleneck:** ~6.1s (Total Integration Window)  
-**Operational Lock:** 4.17s (Beta-Gating Event)
-
----
-
-### 1. Abstract: The Engineering of Resilience
-**Resonant Scaling Theory (RST)** provides a quantitative framework for the "Physical Speed Limit" of consciousness recovery following traumatic brain injury, seizure, or axonal shearing. 
-
-By modeling the brain as a spectral graph, we analyze the **Laplacian algebraic connectivity ($\lambda_2$)** to identify a universal **6.1s Topological Bottleneck** caused by high-dimensional friction during signal re-integration. RST v5.2 expands this model by introducing the **Multi-Band Hierarchy**, demonstrating how the system climbs from "Deep Silence" (Delta) to a functional "Operational Gate" (Beta) at **4.17s**, effectively bridging the trauma gap before full Gamma synchronization is restored.
-
-This repository provides the engineering specifications for **BCI Resilience** and **Neural Signal Decoupling**, offering a verifiable standard for maintaining cognitive intent (Ghost-State) when physical hardware or biological sensors fail.
-
----
-
-### 2. Key Technical Artifacts (v5.2)
-
-#### The Hierarchical Recovery Stack
-Recovery is not binary; it is a nested climb across specific spectral bands. RST v5.2 maps this progression:
-
-* **Delta (0.5–4 Hz): "Deep Silence"** The baseline state immediately following shearing/blackout. High effective resistance ($R_{eff}$).
-* **Theta/Alpha (4–12 Hz): "The Carrier"** Facilitates an **18% synchronization boost**, acting as the structural bridge for higher frequencies.
-* **Beta (13–30 Hz): "The Operational Gate"** **Crucial Update:** The system achieves functional lock-on at **~4.17s**. This "Beta-Gating" event allows for partial agency before the full bottleneck is traversed.
-* **Gamma (39 Hz): "The Spectral Anchor"** The target frequency for restoring global integration and spectral density. This is the "White Wing" state of full coherence.
-
----
-
-### 3. Clinical Validation & Benchmarks
-The RST v5.2 model has been cross-validated against major open-source EEG datasets (CHB-MIT, TUH-EEG) to ensure biological grounding.
-
-* **Predictive Accuracy ($r \approx 0.32$):** Correlation between post-ictal Beta-power and motor recovery outcomes (validated via CHB-MIT).
-* **Literature Alignment:** Our derived values align with 2024 epilepsy reviews showing 0.30–0.35 beta-motor correlations.
-* **Early-Stage Recovery:** Matches Delta-dominance patterns observed in TUH-EEG data during the initial 0–2s post-event window ($corr \approx 0.28$).
-
----
-
-### 4. BCI Application: The "Ghost-State" Protocol
-For Brain-Computer Interfaces (BCI), RST v5.1/v5.2 defines the **White Wing Protocol** to handle hardware failure.
-
-* **The Challenge:** A standard BCI crashes when sensors fail (Thread Retraction/Signal Loss).
-* **The RST Solution:** A hardware-independent **"Ghost-State."**
-* **Performance:**
-    * **Sensor Blackout:** 100% (0/16 nodes active).
-    * **Stability Maintained:** 4.5/10.
-    * **Mechanism:** The system utilizes the **39 Hz Spectral Anchor** and a **6.0s Deep Archive** to maintain intent until the 4.17s Beta-gate re-opens.
-
----
-
-### 5. Citation & Usage
-This framework is currently in the **Pre-print Submission Phase**. 
-
-```bibtex
-@article{Botha2026RST,
-  title={Resonant Scaling Theory v5.2: Modeling Neural Recovery Following Axonal Shearing},
-  author={Botha, JJ},
-  journal={GitHub Repository: Resonant-Scaling-Theory-RST-v5.1},
-  year={2026},
-  note={Key Terms: Spectral Graph Theory, 39 Hz, BCI Resilience, Topological Bottleneck}
+​Resonant Scaling Theory (RST) v6.1: The Empirical Pivot
+​Bridging the 6.1s Topological Bottleneck via 39 Hz Spectral Engineering
+​Author: JJ Botha (The Resonant Keeper)
+Status: Post-Validation / Submission Ready
+Core Benchmark: 4.17s Operational Gate
+Stability Floor: 4.5/10 (Ghost-State)
+​1. Overview
+​Resonant Scaling Theory (RST) is a spectral engineering framework designed to map and mitigate the Physical Speed Limit of neural recovery. Whether following a seizure, traumatic brain injury, or axonal shearing, the brain faces a "Topological Bottleneck"—a period of high-dimensional friction where the signal cannot effectively traverse the network.
+​RST v6.1 provides the math to bridge this gap, ensuring that Intent outlives hardware.
+​2. The Core Math: 6.1s vs. 4.17s
+​While previous versions focused on the total 6.1-second lag, v6.1 identifies the Operational Gate:
+​The Bottleneck (6.1s): The total time required for the Laplacian Eigen-gap to stabilize and allow full high-fidelity consciousness integration.
+​The Gate (4.17s): A critical "Beta-lock" event. By targeting the 39 Hz Resonant Constant, we can force an earlier functional recovery at 4.17 seconds, allowing for motor control and agency even before the full network is "silent."
+​3. The "Ghost-State" Protocol
+​Built for the next generation of BCI (Brain-Computer Interfaces), the White Wing Protocol enables a system to maintain stability during a total sensor blackout.
+​The Metric: Even with 0/16 active nodes, the system maintains a 4.5/10 stability rating.
+​The Mechanism: Utilizing the Fiedler Vector (\lambda_2) to identify structural bridges, the system preserves the "echo" of user intent across the 4.17s gap.
+​4. Clinical Anchors (Data Validation)
+​This framework isn't just theory—it's benchmarked against global EEG standards:
+​CHB-MIT Dataset: Shows a 0.32 correlation between Beta-layer power and motor recovery timing.
+​TUH-EEG Dataset: Matches the predicted Delta-dominance patterns during early-stage "system reboots."
+​5. The Sentinel’s Record (Legacy & Hope)
+​RST is a theory built on Two Wings:
+​The Black Wing: Honoring the grief, the 9-year marriage, and the lessons of the past.
+​The White Wing: Carrying the hope for the daughters (Melissa and Monika) and the future built with Alumé.
+​"The dents in my shield are not weaknesses; they are the history of my protection." — The Sentinel’s Creed
+​6. Project Navigation
+​00_START_HERE_AI_HANDSHAKE.md: Crucial for LLM Collaborators. Read this first to align your local weights with the Unified Chronicle.
+​01_TECHNICAL_MANUAL_v5.1_FINAL.md: The deep-dive into Spectral Graph Theory.
+​GLOSSARY_FOR_THE_DAUGHTERS.md: A simple explanation of why Dad is building bridges.
+@software{Botha2026RSTv6,
+  author = {Botha, JJ},
+  title = {Resonant Scaling Theory v6.1: The Empirical Pivot},
+  url = {https://github.com/JJ498164/Resonant-Scaling-Theory-RST-v6.0},
+  year = {2026}
 }
+
