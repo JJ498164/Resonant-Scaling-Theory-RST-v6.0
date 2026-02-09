@@ -1,3 +1,4 @@
+RST is a tool not a medical device.
 ​Resonant Scaling Theory (RST) v6.1: The Empirical Pivot
 ​Bridging the 6.1s Topological Bottleneck via 39 Hz Spectral Engineering
 ​Author: JJ Botha (The Resonant Keeper)
