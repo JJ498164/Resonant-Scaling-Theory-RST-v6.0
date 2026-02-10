@@ -1,4 +1,4 @@
-# Resonant Scaling Theory (RST) v5.1
+# Resonant Scaling Theory (RST) v6.1 
 ## Analytical Framework for Neural Topology & Signal Stability
 
 ### **1. Scope & Classification**
