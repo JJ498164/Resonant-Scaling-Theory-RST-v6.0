@@ -1,0 +1,13 @@
+def inject_39hz_pulse(adj_matrix):
+    """
+    RST v6.1 Recovery Protocol:
+    Forces topological re-alignment to restore the 39Hz anchor.
+    """
+    print("\n[RECOVERY] Injecting 39Hz Resonant Pulse...")
+    # Re-establishing the primary circular loop (The Bridge)
+    size = len(adj_matrix)
+    for i in range(size):
+        next_node = (i + 1) % size
+        adj_matrix[i, next_node] = 1.0
+        adj_matrix[next_node, i] = 1.0
+    return adj_matrix
