@@ -36,7 +36,11 @@ RST v5.1 models "Topological Friction" in neural networks post-Traumatic Brain I
 1. **Mechanical/Chemical Isolation:** Reducing external impulses and metabolic noise.
 2. **Data-Load Filtering:** Managing social density to prevent processing overload.
 3. **Phase-Locking:** Utilizing focal anchors to maintain the 39 Hz resonance.
-
+Metric Stable State At-Risk State Bifurcation (Collapse)
+Algebraic Connectivity (\lambda_2) > 1.0 0.4 - 0.9 < 0.1
+Resonance Anchor 39 Hz (Locked) Drifting Scattered (0 Hz)
+Signal Latency ~0.1s - 0.6s 1.0s - 4.0s 6.1s (Hard Limit)
+Subject Experience Clear Intent "Russian" Aliasing Atonic Fall / Reboot
 ---
 **Author:** JJ Botha (Resonant Keeper)  
 **Project:** Unified Chronicle of the Resonant Keeper (v5.1)
