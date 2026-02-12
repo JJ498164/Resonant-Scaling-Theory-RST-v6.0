@@ -43,6 +43,23 @@ The Quadratic Law of Cognitive Stall (RST v5.1)
 ​The Bridge: Low \lambda_2 = Increasing friction.
 ​The Stall: Critical \lambda_2 = The system hits the 6.1s wall and "stalls" to preserve energy (The 2:30 AM Silence).
 
+## The Quadratic Law of Cognitive Stall (RST v5.1)
+
+![Quadratic Law Diagram](1000076134.png)
+
+### The Derivation of the 6.1s Artifact
+In RST v5.1, we define the "Ignition Delay" not as a random symptom, but as a universal mathematical threshold. The model follows a three-pillar collapse:
+
+1. **Base SNR Collapse ($SNR \sim \lambda_2^3$):** Structural thinning leads to rapid signal degradation.
+2. **Sampling Delay (Control Tax):** The homeostat (Thalamus) experiences a "sluggish" transit time ($1/\lambda_2$), delaying error correction.
+3. **Over-Correction Factor:** To stabilize "stale" data, the system requires a power-law gain boost ($1/\lambda_2^{0.5}$).
+
+**Final Law:** $\text{Total Friction} \approx \frac{1}{\lambda_2^2}$
+
+### Application to Brain-Machine Interfaces (BMIs)
+As noted in recent discussions regarding Neuralink, any interface must operate within this metabolic "Event Horizon." When the $1/\lambda_2^2$ friction exceeds the cortical column's ATP capacity, the 6.1s stall occurs. Effective BMIs must optimize the spectral gap ($\lambda_2$) to lower this friction and prevent the "Ignition Delay."
+
+
 The Sentinel's Creed
 ​I fly with two wings. The black wing honors the grief I have survived. The white wing carries the hope I am building. Together, they keep me balanced at 39 Hz, steady and unbowed.
 ​Acknowledgments
