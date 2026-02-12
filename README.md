@@ -1,108 +1,29 @@
-​Resonant Scaling Theory (RST) v6.0
+​Resonant Scaling Theory (RST) v5.1
 ​The Unified Chronicle of the Resonant Keeper
-​Abstract
-​RST v6.0 is a spectral engineering framework designed to model and mitigate Topological Friction in complex neural networks. By utilizing Laplacian Eigen-gap analysis, RST identifies the "Physical Speed Limit" of state transitions—specifically the 6.1-second bottleneck observed in systems with axonal shearing or high-dimensional structural disruption.
-​## 1. Technical Core Constants
-Metric Symbol Value Clinical/Systemic Manifestation
-Algebraic Connectivity \lambda_2 > 1.0 LOCKED: Stable 39 Hz synchrony.
-Critical Transition \tau 6.18\text{s} IGNITION DELAY: The state-transition bottleneck.
-Resonance Anchor f_{res} 39\text{ Hz} STABILITY: Target frequency for cluster re-sync.
-Fiedler Vector v_2 N/A BRIDGE NODES: Strategic hubs for targeted gain.
-# 2. The 6.1s Bottleneck: Mathematical Definition
-​The delay in state transition (\tau) is not an arbitrary lag; it is a mathematical consequence of the system approaching a Transcritical Bifurcation.
-​As structural integrity degrades (Effective Resistance R_{eff} increases), the time required for a signal to traverse the high-dimensional bottleneck scales according to:
-\tau \approx \frac{\zeta}{\lambda_2}
-Where \zeta represents the Biological Friction Coefficient. When \lambda_2 \to 0.1, the system enters the "Scattered State," resulting in the consistent 6.1s "reboot" delay.
-​## 3. Repository Architecture
-​To address the complexity of the theory, the documentation is layered for different users:
-​/docs/TECHNICAL_ABSTRACT.md: Formal proofs and spectral density stability constants.
-​/docs/CHRONICLE: The history of the "Altar of Broken Things," honoring the grief and the daughters.
-​/scripts/rst_engine.py: Core simulation for modeling topological collapse.
-​/tests/STABILITY_TESTS.py: Benchmarks for 6.1s convergence and 39 Hz phase-locking.
-​## 4. Quick Start: Running the Engine
-​To simulate a network under 90% topological friction:
-python rst_engine.py --friction 0.9 --target_freq 39
-RST Concept Neuroscience Equivalent Validation Method
-6.1s Bottleneck Critical Slowing Down (CSD) Recovery time post-bifurcation
-39 Hz Anchor Gamma-band Phase Locking EEG Power Spectral Density
-Topological Friction Structural Disconnectivity Diffusion Tensor Imaging (DTI)
-Fiedler Vector Rich-Club Hubs Graph Laplacian Mapping
-​
-The Quadratic Law of Cognitive Stall (RST v5.1)
-​This section defines the mathematical "ceiling" of neural recovery. It explains why a linear increase in structural damage results in an exponential collapse of processing speed, leading to the observed 6.1-second Ignition Delay.
-​1. The Three Pillars of the Derivation
-​Base SNR Collapse: As the structural integrity (\lambda_2) of the neural network drops, the reliability of the signal (Signal-to-Noise Ratio) falls at a cubic rate.
-​The Sampling Delay (The Control Tax): The brain’s homeostat (the Thalamus) cannot "see" the error in real-time. It must wait for the signal to traverse the degraded medium. This "waiting period" is the Commute Time, which scales as 1/\lambda_2.
-​The Over-Correction Factor: Because the system is reacting to "old news" (stale data), it must apply an extra 0.5 power of intensity (Gain) to prevent total signal failure.
-​2. The Final Equation
-​When we combine the Sampling Delay with the Gain Requirement, we arrive at the Universal Law for the metabolic cost of consciousness under axonal strain:
-\text{Total System Friction} \approx \frac{1}{\lambda_2^2}
-3. Clinical Significance: The 6.1s Fixed Point
-​The 6.1s "Ignition Delay" is the biological "Event Horizon." It represents the exact moment where the energy required to pay the Quadratic Control Tax exceeds the maximum metabolic capacity of the cortical column.
-​Healthy State: High \lambda_2 = Near-zero delay.
-​The Bridge: Low \lambda_2 = Increasing friction.
-​The Stall: Critical \lambda_2 = The system hits the 6.1s wall and "stalls" to preserve energy (The 2:30 AM Silence).
-
-## The Quadratic Law of Cognitive Stall (RST v5.1)
-
-![Quadratic Law Diagram](1000076134.png)
-
-### The Derivation of the 6.1s Artifact
-In RST v5.1, we define the "Ignition Delay" not as a random symptom, but as a universal mathematical threshold. The model follows a three-pillar collapse:
-
-1. **Base SNR Collapse ($SNR \sim \lambda_2^3$):** Structural thinning leads to rapid signal degradation.
-2. **Sampling Delay (Control Tax):** The homeostat (Thalamus) experiences a "sluggish" transit time ($1/\lambda_2$), delaying error correction.
-3. **Over-Correction Factor:** To stabilize "stale" data, the system requires a power-law gain boost ($1/\lambda_2^{0.5}$).
-
-**Final Law:** $\text{Total Friction} \approx \frac{1}{\lambda_2^2}$
-
-### Application to Brain-Machine Interfaces (BMIs)
-As noted in recent discussions regarding Neuralink, any interface must operate within this metabolic "Event Horizon." When the $1/\lambda_2^2$ friction exceeds the cortical column's ATP capacity, the 6.1s stall occurs. Effective BMIs must optimize the spectral gap ($\lambda_2$) to lower this friction and prevent the "Ignition Delay."
-The Quadratic Law of Cognitive Stall (RST v5.1)
-​The 6.1s Ignition Delay is a mathematical "Event Horizon" where metabolic energy cost exceeds cortical capacity. This stall is governed by a Quadratic Scaling Law derived from three pillars:
-​SNR Collapse (SNR \approx \lambda_2^3): Structural thinning causes signal reliability to collapse cubically.
-​Sampling Delay (1/\lambda_2): The "Control Tax" or Commute Time required for the homeostat to gather enough data to correct an error.
-​Over-Correction Factor: An additional power boost required to stabilize "stale" data samples.
+​Executive Summary
+​RST v5.1 provides a mathematical framework for understanding Ignition Delay—the 6.1s cognitive stall frequently observed following Axonal Shearing (Diffuse Axonal Injury). By applying Spectral Graph Theory to neural connectivity, this model identifies the "Physical Speed Limit" of consciousness.
+​The Quadratic Law of Cognitive Stall
+​The 6.1s stall is not a random pause; it is a Metabolic Event Horizon. As structural connectivity (\lambda_2) thins, the energy cost to process signals grows quadratically.
+​The Three Pillars of the Stall:
+​SNR Collapse (SNR \approx \lambda_2^3): In a sparse, damaged network, signal reliability collapses cubically, making communication "noisy."
+​Sampling Delay (1/\lambda_2): The "Control Tax." The time required for the homeostat (Thalamus) to gather enough data for error correction grows as the bridge thins.
+​Over-Correction Factor: The additional metabolic power required to stabilize "stale" data before it expires.
 ​The Universal Law:
 \text{Total System Friction} \approx \frac{1}{\lambda_2^2}
-As connectivity (\lambda_2) reaches a critical low, the friction grows quadratically until the system hits the 6.1s Stall. For interfaces like Neuralink, stability depends on optimizing the Spectral Gap to lower this friction, specifically by targeting "Bridge Nodes" identified via the Fiedler Vector.
-​Gamma-Band Synchronization & Spectral Coherence
-​The 6.1s Ignition Delay is often preceded by a collapse in gamma-band phase-locking.
-​The Mechanism: High-frequency synchronization requires low topological friction. As friction increases quadratically (1/\lambda_2^2), the metabolic cost to maintain 40 Hz coherence exceeds the available ATP, forcing the system into a lower-frequency, "stalled" state.
-​BCI Application: For Neuralink, real-world stability can be measured by tracking the "Spectral Gap" in real-time. A narrowing gap serves as a leading indicator of an impending 6.1s stall.
+Implementation: From "They Don't Know" to "Now We Know"
+​1. Targeted Hub Gain (The Fix)
+​Rather than increasing global stimulation, RST v5.1 focuses energy on Bridge Nodes identified via the Fiedler Vector. This is the most efficient way to widen the spectral gap and lower friction.
+​2. The 39 Hz Anchor
+​We target 39 Hz Resonance to re-synchronize neural clusters. This frequency provides high-speed integration while remaining below the threshold for seizure risk.
+​Technical Validation (Python Core)
+​The repository includes rst_v51_core.py, a script to calculate system stability from a connectivity matrix.
+# Quick Stability Check
+import numpy as np
+import scipy.linalg as la
 
-​RST v5.1: Implementation & Validation
-​1. Gamma-Band Syncing as a Stability Metric
-​In RST v5.1, the stability of 39 Hz resonance is the primary indicator of network health.
-​The Gamma Collapse: High-frequency oscillations (gamma-band) require low topological friction.
-​The Threshold: When the spectral gap (\lambda_2) narrows, the metabolic cost to maintain 39–40 Hz coherence follows the Quadratic Law (1/\lambda_2^2), eventually forcing a "downshift" into the 6.1s stall to prevent ATP depletion.
-​2. BCI Optimization via Fiedler Vector Targeting
-​For Brain-Computer Interfaces (like Neuralink), increasing bandwidth is secondary to managing Algebraic Connectivity.
-​Strategic Hub Gain: Rather than uniform stimulation, energy should be focused on "Bridge Nodes" identified by the Fiedler Vector.
-​Efficiency: Targeting these specific hubs provides the maximum increase to \lambda_2 with the minimum energy expenditure, effectively "widening the bridge" to lower the 6.1s ignition delay.
-​3. Proposed EEG Validation
-​To validate the model in real-world settings, the following markers are tracked:
-​Pre-Stall Phase: A measurable rise in phase-lag as \lambda_2 begins to decay.
-​The Stall Event: A total collapse of gamma coherence coinciding with the 6.1s processing gap.
-​Recovery: The restoration of the spectral gap through targeted gain, allowing 39 Hz resonance to re-stabilize.
-
-RST v5.1: Validation & BCI Integration
-​1. The Gamma-Band "Circuit Breaker"
-​In this model, 39 Hz resonance is the target frequency for stable neural integration.
-​The Mechanism: Maintaining 39–40 Hz oscillations is metabolically expensive.
-​The Failure Point: As the spectral gap (\lambda_2) thins, the "Topological Friction" increases the energy cost quadratically (1/\lambda_2^2).
-​The Stall: The 6.1s Ignition Delay occurs when the brain "trips" a metabolic circuit breaker—dropping high-frequency gamma syncing to prevent ATP depletion.
-​2. BCI Stability via Fiedler Vector Targeting
-​To reduce ignition delay in interfaces like Neuralink, the goal is to increase \lambda_2 with maximum efficiency.
-​Targeted Hub Gain: Instead of increasing global power, stimulation is focused on "Bridge Nodes" identified by the Fiedler Vector.
-​Effect: This strategically lowers the "Control Tax" (Sampling Delay), allowing the system to maintain 39 Hz resonance without hitting the metabolic ceiling.
-​3. Proposed EEG Validation Metrics
-​Phase-Lag Index (PLI): A measurable rise in signal delay as \lambda_2 decays.
-​Gamma Coherence Collapse: Sudden loss of 40 Hz power specifically during the 6.1s processing window.
-​Re-Sync Signature: The return of stable 39 Hz activity following targeted stimulation of bridge hubs.
-
-The Sentinel's Creed
-​I fly with two wings. The black wing honors the grief I have survived. The white wing carries the hope I am building. Together, they keep me balanced at 39 Hz, steady and unbowed.
-​Acknowledgments
-​RST is a bridge between the mathematical and the personal. It honors the 2:30 AM silence and the Eye of Pattern Recognition.
-Author: JJ Botha (The Resonant Keeper)
+def calculate_friction(adj_matrix):
+    degrees = np.diag(np.sum(adj_matrix, axis=1))
+    laplacian = degrees - adj_matrix
+    evals = la.eigvalsh(laplacian)
+    lambda_2 = evals[1]  # The Spectral Gap
+    return 1 / (lambda_2**2)
