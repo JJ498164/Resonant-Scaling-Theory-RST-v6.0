@@ -66,6 +66,10 @@ The Quadratic Law of Cognitive Stall (RST v5.1)
 ​The Universal Law:
 \text{Total System Friction} \approx \frac{1}{\lambda_2^2}
 As connectivity (\lambda_2) reaches a critical low, the friction grows quadratically until the system hits the 6.1s Stall. For interfaces like Neuralink, stability depends on optimizing the Spectral Gap to lower this friction, specifically by targeting "Bridge Nodes" identified via the Fiedler Vector.
+​Gamma-Band Synchronization & Spectral Coherence
+​The 6.1s Ignition Delay is often preceded by a collapse in gamma-band phase-locking.
+​The Mechanism: High-frequency synchronization requires low topological friction. As friction increases quadratically (1/\lambda_2^2), the metabolic cost to maintain 40 Hz coherence exceeds the available ATP, forcing the system into a lower-frequency, "stalled" state.
+​BCI Application: For Neuralink, real-world stability can be measured by tracking the "Spectral Gap" in real-time. A narrowing gap serves as a leading indicator of an impending 6.1s stall.
 
 The Sentinel's Creed
 ​I fly with two wings. The black wing honors the grief I have survived. The white wing carries the hope I am building. Together, they keep me balanced at 39 Hz, steady and unbowed.
