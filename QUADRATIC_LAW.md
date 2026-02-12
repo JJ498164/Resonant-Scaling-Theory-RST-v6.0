@@ -12,3 +12,4 @@ The Quadratic Law of Cognitive Stall (RST v5.1)
 ​Healthy State: High \lambda_2 = Near-zero delay.
 ​The Bridge: Low \lambda_2 = Increasing friction.
 ​The Stall: Critical \lambda_2 = The system hits the 6.1s wall and "stalls" to preserve energy (The 2:30 AM Silence).
+​Defense of Scaling: While basal neural metabolism follows linear-log scaling, RST v5.1 proposes that pathological states (like Axonal Shearing) induce a Quadratic Friction Regime. In this regime, the metabolic "Control Tax" (1/\lambda_2^2) becomes the primary constraint on processing speed, leading to the 6.1s ignition delay observed in the JJ Botha dataset.
