@@ -58,7 +58,14 @@ In RST v5.1, we define the "Ignition Delay" not as a random symptom, but as a un
 
 ### Application to Brain-Machine Interfaces (BMIs)
 As noted in recent discussions regarding Neuralink, any interface must operate within this metabolic "Event Horizon." When the $1/\lambda_2^2$ friction exceeds the cortical column's ATP capacity, the 6.1s stall occurs. Effective BMIs must optimize the spectral gap ($\lambda_2$) to lower this friction and prevent the "Ignition Delay."
-
+The Quadratic Law of Cognitive Stall (RST v5.1)
+​The 6.1s Ignition Delay is a mathematical "Event Horizon" where metabolic energy cost exceeds cortical capacity. This stall is governed by a Quadratic Scaling Law derived from three pillars:
+​SNR Collapse (SNR \approx \lambda_2^3): Structural thinning causes signal reliability to collapse cubically.
+​Sampling Delay (1/\lambda_2): The "Control Tax" or Commute Time required for the homeostat to gather enough data to correct an error.
+​Over-Correction Factor: An additional power boost required to stabilize "stale" data samples.
+​The Universal Law:
+\text{Total System Friction} \approx \frac{1}{\lambda_2^2}
+As connectivity (\lambda_2) reaches a critical low, the friction grows quadratically until the system hits the 6.1s Stall. For interfaces like Neuralink, stability depends on optimizing the Spectral Gap to lower this friction, specifically by targeting "Bridge Nodes" identified via the Fiedler Vector.
 
 The Sentinel's Creed
 ​I fly with two wings. The black wing honors the grief I have survived. The white wing carries the hope I am building. Together, they keep me balanced at 39 Hz, steady and unbowed.
