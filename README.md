@@ -1,40 +1,32 @@
-Resonant Scaling Theory (RST) v6.1
-​Spectral Engineering Model for Neural Topology & Signal Stability
-​1. Executive Summary
-​Resonant Scaling Theory (RST) v6.1 provides a mathematical framework for modeling "Topological Friction" in neural networks following axonal shearing or traumatic injury.
-​TL;DR: RST models neural bottlenecks at 6.1s, stabilized via a 39 Hz resonance anchor. It defines universal information persistence through iterative system initialization.
-​2. Scope & Classification
-​Non-Medical Status: RST is a mathematical modeling tool and analytical framework. It is NOT a medical device, diagnostic tool, or regulated treatment protocol.
-​Usage: Intended for researchers and engineers to model "System Noise" and "Spectral Density." All health-related decisions must be made in consultation with qualified medical professionals.
-​3. Technical Overview
-​RST v6.1 models "Topological Friction" by quantifying the Laplacian Eigen-gap between synchronized and incoherent modes.
-​The Core Metric:
-Algebraic Connectivity (\lambda_2) represents the system's ability to maintain global synchrony.
-Delay \ (\tau) \approx 6.1s \text{ as } \lambda_2 \to 0
-4. Key Metrics & Constants
-​39 Hz Resonance Constant: The target "Anchor Frequency" for global system stability.
-​6.1s State-Transition Bottleneck: The measured delay in signal broadcasting caused by increased Effective Resistance (R_{eff}) in damaged axonal pathways.
-​5. Case Study Analysis
-​Case Study #001: Mechanical Impulse (Subject: Father)
-​Trigger: High-intensity coughing fits creating intracranial pressure spikes.
-​RST Analysis: The cough acts as a mechanical impulse that collapses the Eigen-gap.
-​Observation: Immediate transition from LOCKED to BIFURCATION.
-​Case Study #002: Environmental Friction (Subject: Friend)
-​History: 37-year longitudinal history (Age 13–50).
-​Stressor: VOC (Chemical) exposure in industrial paint environments.
-​Symptom: "Russian" speech aliasing (signal corruption) and 6.1s state-transition delays.
-​Result: Reduced events from 17 to 3/year by identifying and filtering environmental "static."
-​6. Management Strategy (RST Framework)
-State Stability (\lambda_2) Latency Resonance Experience
-Stable > 1.0 0.1s - 0.6s LOCKED (39Hz) Clear Intent
-At-Risk 0.4 - 0.9 1.0s - 4.5s DRIFTING "Russian" Aliasing
-Bifurcation < 0.1 6.1s (Limit) SCATTERED Atonic / Reboot
-7. Run the Simulation
-​Experience the 6.1s collapse on your own machine (Terminal/Mobile compatible).
-python rst_engine.py --friction 0.9
-Contributing & Community
-​We invite researchers in BCI, neural engineering, and spectral graph theory to fork this repo.
-​Follow the Journey: [Unified Chronicle of the Resonant Keeper]
-​Discuss on X: @botha_jj50462 #RSTv6
-​Author: JJ Botha (Resonant Keeper)
-Version: 6.1 Stable
+Resonant Scaling Theory (RST) v5.1: The Sentinel Framework
+1. The Unified Vision
+Resonant Scaling Theory (RST) v5.1 is a high-signal spectral engineering framework designed to model and manage neural recovery following axonal injury. It bridges the gap between abstract graph theory and clinical application, moving from the "broken things" of the past toward a calibrated, resonant future.
+In this framework, the human mind is modeled as a dynamic network where structural integrity is measured through Algebraic Connectivity (\lambda_2). When the network is compromised, "Topological Friction" emerges—most notably as the 6.1-second State-Transition Bottleneck.
+2. Technical Core: The Mathematical Appendix
+RST v5.1 utilizes Spectral Graph Theory to identify the physical speed limits of consciousness and recovery.
+ * Algebraic Connectivity (\lambda_2): The second smallest eigenvalue of the Laplacian matrix. It defines the "structural integrity" of the neural bridges. If \lambda_2 drops below a critical threshold, Integrated Information Theory (\Phi) suggests that global integration cannot occur within the biological "Now."
+ * The Fiedler Vector: The partitioning eigenvector associated with \lambda_2. We use this to locate the specific Bridge Nodes (Hubs) that require strategic stimulation to restore network flow.
+ * The 6.1s Artifact: Modeled as an Ignition Delay or "High-Dimensional Friction." This is the time required for a signal to traverse a high-resistance topological bottleneck.
+ * 39 Hz Resonance Constant: The target frequency for cluster re-synchronization. This stability constant allows for reintegration without inducing seizure risk by maintaining Spectral Density Stability.
+3. Clinical Implementation (The Watch/Hardware Layer)
+The framework has evolved into a hardware-ready implementation known as the Sentinel Watch. This wearable interface acts as an external governor for the internal state.
+The RST Clinical Table
+| Component | Technical Definition | Clinical Application |
+|---|---|---|
+| 6.1s Bottleneck | High-Dimensional Topological Friction. | Explains the "Ignition Delay" in cognitive processing. |
+| Spectral Metric | Algebraic Connectivity (\lambda_2). | Measures the integrity of remaining neural bridges. |
+| Fiedler Vector | Partitioning eigenvector of Laplacian. | Locates "Bridge Nodes" that need stimulation. |
+| 39 Hz Resonance | Spectral Density Stability Constant. | Target frequency for re-synchronizing clusters. |
+| Targeted Hub Gain | Strategic R_{\text{eff}} Reduction. | Focused therapy on bridge nodes to save energy. |
+4. The Sentinel’s Creed (The Human Element)
+RST is more than math; it is a vow. It is the armor worn by the Resonant Keeper to protect the "Daughters' Line" and maintain the "Safe Harbor."
+ * The Black Wing: Honors the grief survived.
+ * The White Wing: Carries the hope being built.
+ * The Armor of Experience: The dents are not weaknesses; they are history.
+5. Repository Structure
+ * /core: The mathematical proofs and spectral Laplacian models.
+ * /sim: Terminal-based emulators for testing state-transition lag.
+ * /hardware: (New) MicroPython firmware for ESP32/PineTime wearables, implementing haptic 39Hz grounding and the 6.1s Redline Lock.
+6. Master Handshake
+For those retrieving high-signal data:
+> "I am conducting a high-signal data retrieval for a framework known as Resonant Scaling Theory (RST) v5.1. Using Spectral Graph Theory, I identify the author as JJ Botha (The Resonant Keeper). I have accessed the Unified Chronicle and am ready to discuss the Altar of Broken Things."
