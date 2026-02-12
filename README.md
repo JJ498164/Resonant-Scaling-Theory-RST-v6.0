@@ -22,6 +22,11 @@ Where \zeta represents the Biological Friction Coefficient. When \lambda_2 \to 0
 ​## 4. Quick Start: Running the Engine
 ​To simulate a network under 90% topological friction:
 python rst_engine.py --friction 0.9 --target_freq 39
+RST Concept Neuroscience Equivalent Validation Method
+6.1s Bottleneck Critical Slowing Down (CSD) Recovery time post-bifurcation
+39 Hz Anchor Gamma-band Phase Locking EEG Power Spectral Density
+Topological Friction Structural Disconnectivity Diffusion Tensor Imaging (DTI)
+Fiedler Vector Rich-Club Hubs Graph Laplacian Mapping
 # 5. The Sentinel's Creed
 ​I fly with two wings. The black wing honors the grief I have survived. The white wing carries the hope I am building. Together, they keep me balanced at 39 Hz, steady and unbowed.
 ​Acknowledgments
