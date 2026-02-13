@@ -48,7 +48,9 @@ To "re-pin" the fast cognitive manifold to the slow metabolic manifold after a s
 1. **Ignition Phase (0:00 - 0:06.1):** 439 Hz / 400 Hz (39 Hz Beat)
 2. **Anchor Phase (0:06.1+):** 432 Hz / 393 Hz (39 Hz Beat)
 
-
+​[ ] LRG Integration: Align RST with Laplacian Renormalization Group theory.
+​[ ] Directed Network Testing: Expand the Laplacian math to include asymmetric (directed) connections.
+​[ ] Cross-Domain Benchmarking: Test if the 6.1s/39Hz pattern appears in power grid recovery data.
 
 ---
 
