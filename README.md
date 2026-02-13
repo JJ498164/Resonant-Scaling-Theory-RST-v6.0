@@ -52,6 +52,9 @@ To "re-pin" the fast cognitive manifold to the slow metabolic manifold after a s
 ​[ ] Directed Network Testing: Expand the Laplacian math to include asymmetric (directed) connections.
 ​[ ] Cross-Domain Benchmarking: Test if the 6.1s/39Hz pattern appears in power grid recovery data.
 
+T_{stall} \approx \frac{1}{\gamma \cdot \lambda_2^2}
+where \gamma is the system-specific metabolic constant.
+
 ---
 
 ## 🛡️ The Sentinel’s Creed
