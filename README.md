@@ -27,3 +27,32 @@ def calculate_friction(adj_matrix):
     evals = la.eigvalsh(laplacian)
     lambda_2 = evals[1]  # The Spectral Gap
     return 1 / (lambda_2**2)
+RST v5.1 Audio Assets: The Ignition-Sync Protocol
+
+This folder contains the binaural beat assets designed to facilitate neural synchronization following a 6.1s cognitive stall, as modeled in Resonant Scaling Theory (RST) v5.1.
+
+Operational Overview:
+The protocol is a two-stage auditory intervention using binaural beats to target the 39 Hz Resonant Stability Constant.
+
+1.  Stage 1: The Ignition Wedge (0:00 - 0:06.1)
+    
+      - Frequencies: 439 Hz (Left) / 400 Hz (Right) -> 39 Hz Beat.
+      - Purpose: To provide a high-energy "topological wedge" to overcome the 1/lambda_2^2 friction of the initial stall.
+
+2.  Stage 2: The Resonant Anchor (0:06.1 - 20:00)
+    
+      - Frequencies: 432 Hz (Left) / 393 Hz (Right) -> 39 Hz Beat.
+      - Purpose: To sustain global synchronization at a lower metabolic cost using biological resonance carriers.
+
+DISCLAIMER & SAFETY WARNING:
+
+1.  EPILEPSY WARNING: This audio contains Gamma-band binaural beats (39 Hz). Do NOT use if you have a history of seizures or epilepsy.
+2.  STOP IMMEDIATELY if you experience nausea, dizziness, headache, or visual disturbances.
+3.  NON-MEDICAL DEVICE: Experimental protocol. Use at own risk.
+4.  OPERATIONAL SAFETY: Do not use while driving or operating machinery.
+
+How to Use:
+
+  - Headphones Required.
+  - Moderate Volume.
+  - Quiet Environment 
