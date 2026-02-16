@@ -9,7 +9,10 @@
 
 The theory treats Traumatic Axonal Injury (TAI) not as a permanent loss of function, but as a "Topological Stall" that can be mapped, simulated, and eventually re-synchronized.
 
----
+## **Technical Documentation**
+* [Formal Mathematical Appendix](./MATHEMATICAL_APPENDIX.md) — *Derivations of $\lambda_2$ Scaling & BT Bifurcation.*
+* [Clinical Protocol v2](./CLINICAL_PROTOCOL.md) — *Ignition-Sync Implementation.*
+
 
 ## 💎 The Hard-Coded Invariants
 RST v6.2.1 is anchored by three physical constants derived from spectral analysis and confirmed via coupled delay-differential simulations.
