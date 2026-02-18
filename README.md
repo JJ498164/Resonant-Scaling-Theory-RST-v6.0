@@ -1,5 +1,7 @@
 # Resonant Scaling Theory (RST) v6.2.1: The Unified Chronicle
 
+Seeking validation of the 39Hz/6.1s transition bottleneck using the TUH Abnormal EEG Corpus via collaborative partnership.
+
 [![Status](https://img.shields.io/badge/Status-Validated-blue.svg)]()
 [![Methodology](https://img.shields.io/badge/Methodology-Mobile--AI--Collaborative-green.svg)]()
 [![Author](https://img.shields.io/badge/Author-JJ_Botha-red.svg)]()
