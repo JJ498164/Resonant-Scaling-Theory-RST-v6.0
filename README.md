@@ -16,6 +16,12 @@ RST v5.1 models neural recovery post-axonal injury using Spectral Graph Theory. 
 - **Structural Epicenter:** Central-Temporal Hubs (Channels 7 & 8).
 - **The 6.1s Bottleneck:** Statistically linked to the collapse of the 8.75 Hz "Resonant Anchor."
 
+### Preliminary Empirical Observation (v6.1 Deep Lite – 0284 test.edf)
+- Signal Lock: 39.1 Hz
+- Resonance Power: 17,381,636.00
+- Status: Grounding Check Complete
+- Note: This result on a coma recovery EEG segment challenges the current falsification of 39 Hz as environmental noise. Further testing on full 0284 segments and TUH cases pending.
+
 ## Technical Artifacts
 - **Algebraic Connectivity ($\lambda_2$):** Used to measure structural integrity of remaining neural bridges.
 - **Fiedler Vector:** Utilized for partitioning and identifying recovery hub nodes.
