@@ -1,0 +1,5 @@
+--- RST v6.1 Deep Lite: Initializing ---
+Targeting: /.../test.edf
+Status: Signal Lock Established at 39.1 Hz
+Resonance Power: 17381636.00
+--- Grounding Check: Complete ---
