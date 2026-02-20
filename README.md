@@ -25,7 +25,11 @@ The framework mathematically predicts a 6.1-second "state-transition bottleneck"
 Following adversarial testing, a suspected 39 Hz resonance was identified as environmental artifact (Δ = 0.000). 
 - **Methodological Note:** This demonstrates the framework's internal falsification protocol. Current efforts are focused on identifying biological gamma signatures in the 30-45 Hz range that are distinct from 60 Hz harmonics.
 
----
+### Preliminary Local Observation – v6.1 Deep Lite on 0284 test.edf
+- File: test.edf (coma recovery segment)
+- Output: Signal Lock at 39.1 Hz, Resonance Power 17,381,636.00
+- Grounding Check: Complete
+- Note: This result on a real coma EEG segment challenges the current falsification of 39 Hz as purely environmental noise. Further testing on full 0284 segments and TUH cases is needed to determine if this is intrinsic gamma persistence or artifact.
 
 ## 🛠 Methodology & Metrics
 
