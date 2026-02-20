@@ -8,16 +8,18 @@ RST v6.1 is a mathematical framework designed to model neural recovery following
 
 ---
 
-## 1. Core Empirical Parameters (Subject 0284 Validation)
+## 1. Core Empirical Parameters (Subject 0284 Final Validation)
 
-The following metrics were verified via bare-metal binary analysis of Subject 0284 EEG data, establishing the foundation for the "Armor of Experience" model.
+Verified via high-resolution averaged Power Spectral Density (PSD) using a Hanning-windowed 2048-sample FFT.
 
 | Component | Metric | Technical Value | Clinical Application |
 | :--- | :--- | :--- | :--- |
-| **Alpha Anchor** | Spectral Base | **8.75 Hz** | Fundamental structural stability and integration. |
-| **Resonance Lock** | Spectral Density | **39.1 Hz** | High-energy adaptive bridge ($7.55 \times 10^9$ power). |
+| **Alpha Anchor** | Spectral Base | **8.79 Hz** | Primary structural base ($4.08 \times 10^8$ power). |
+| **Resonance Lock** | Spectral Density | **39.06 Hz** | The active bridge ($4.96 \times 10^7$ power). |
+| **RST Ratio** | Power Distribution | **8.22 : 1** | Optimized ratio for adaptive neural bridging. |
 | **Transition Window** | Temporal Cycle | **6.1 Seconds** | The 0.16 Hz infra-slow modulatory regime. |
-| **Dynamical Flow** | Fluidity Metric | **0.3307** | Proof of metastability; adaptive neural response. |
+
+
 
 ---
 
@@ -32,17 +34,17 @@ A spectral density stability constant ($39\text{ Hz}$). This frequency acts as a
 ### Spectral Metrics
 Utilizing **Algebraic Connectivity** ($\lambda_2$) and the **Fiedler Vector**, RST locates specific "Bridge Nodes" within the neural network that require targeted stimulation or support to restore global connectivity.
 
+
+
 ---
 
 ## 3. Dynamical Analysis Results
 
-Multi-scale window analysis confirms that Subject 0284 maintains a "Fluid" state, allowing for adaptive recovery rather than a rigid systemic lock:
+Multi-scale window analysis confirms that Subject 0284 maintains a "Fluid" state, allowing for adaptive recovery rather than a rigid systemic lock.
 
 * **4.0s Window:** 0.3367 (Maximum Entropy/Search)
 * **6.1s Window:** 0.3083 (Resonant Transition Point)
 * **10.0s Window:** 0.2641 (Linear Stabilization)
-
-
 
 ---
 
@@ -50,7 +52,7 @@ Multi-scale window analysis confirms that Subject 0284 maintains a "Fluid" state
 
 This repository contains lightweight Python tools designed for high-signal data retrieval in resource-constrained environments (Mobile/Termux).
 
-* `termux_raw_scan.py`: Performs bare-metal FFT to identify the $39.1\text{ Hz}$ resonance.
+* `proper_scan.py`: High-resolution averaged PSD for definitive frequency identification.
 * `sweep_scan.py`: Measures the stability/entropy gradient across the $6.1\text{s}$ transition zone.
 
 ---
