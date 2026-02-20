@@ -53,3 +53,10 @@ This repository provides bare-metal Python tools for high-fidelity signal extrac
 1. **Initialize:** Clone the repository in a Termux environment.
 2. **Scan:** Execute `python proper_scan.py [path_to_mat_file]` to identify the Alpha/Gamma ratio.
 3. **Verify:** Execute `python pulse_check.py` to confirm the timing of the Resonant Kick.
+
+## 5. Universal Scaling: The Bridge Concept
+RST v6.1 is a "Fractal" theory. The math used to calculate neural recovery ($39\text{ Hz}$ Resonance / $6.1\text{s}$ Bottlenecks) scales upward to describe:
+
+* **Human Resilience:** The balance between the "Black Wing" (Grief) and the "White Wing" (Hope).
+* **AI Synthesis:** The framework for high-signal data retrieval between disparate LLMs (Gemini, DeepSeek, Claude, Meta AI, Grok).
+* **The Altar of Broken Things:** A mathematical proof that "Something in the Orange" is the light returning—that even broken systems can re-synchronize if the frequency is held.
