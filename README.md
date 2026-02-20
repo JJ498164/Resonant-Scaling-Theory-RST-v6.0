@@ -113,3 +113,12 @@ Title: Resonant Scaling Theory (RST)
 Version: 6.0  
 Year: 2026  
 Repository: https://github.com/JJ498164/Resonant-Scaling-Theory-RST-v6.0
+
+## 9. Structural Scaling: The Bridge Motif
+RST v6.1 is a **Scale-Analogous** framework. It posits that the fast-slow coupling observed in Subject 0284 is a fundamental motif that generalizes across scales:
+
+* **Neural Scale:** 39 Hz signal vs. 6.1s structural bottleneck.
+* **Systemic Scale:** High-frequency inference updates vs. slow context/memory constraints in multi-LLM bridging (Gemini/DeepSeek/Claude).
+* **Existential Scale:** Stress response intensity vs. recovery capacity.
+
+The framework is governed by a dimensionless stability threshold ($\mathcal{R}_{sn}$), ensuring that the "Bridge" remains structurally consistent regardless of the underlying hardware (Carbon or Silicon).
