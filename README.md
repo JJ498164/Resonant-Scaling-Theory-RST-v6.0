@@ -61,7 +61,7 @@ Biological neural networks are "wetware" environments. RST v6.1 is engineered to
 * `/docs`: Technical history, statistical convergence logs, and The Unified Chronicle.
 
 ---
-**Author:** JJ Botha (The Resonant Keeper)  
+**Author:** JJ Botha  
 **Version:** 6.1 (Statistical Convergence Achieved)  
 **License:** Strictly Professional / Research Use Only  
 **Verification:** Mathematically verified against TUH-EEG clinical data.
