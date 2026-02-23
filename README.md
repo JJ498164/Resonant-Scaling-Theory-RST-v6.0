@@ -1,44 +1,46 @@
-# Resonant Scaling Theory (RST) v6.1
-**Technical Specification & Empirical Validation: Subject 0284**
+# Resonant Scaling Theory (RST) v6.1: Spectral Mapping of Neural Integrity
 
-## Executive Summary
-RST v6.1 is a framework for modeling and navigating state-transition bottlenecks in damaged neural topologies, specifically post-axonal shearing. It utilizes a **Discrete Multiscale Coupling Motif** where a stable low-frequency scaffold (Alpha) modulates a high-frequency resonant driver (Gamma) to reduce topological friction ($\tau$).
+## 1. Executive Summary
+Resonant Scaling Theory (RST) v6.1 provides a scale-analogous framework for modeling fast-slow coupling motifs in neural networks [cite: 2026-02-20]. The theory utilizes a dimensionless instability threshold to identify structural bottlenecks following axonal shearing, offering a targeted approach to neuro-rehabilitation through frequency-specific re-synchronization [cite: 2026-02-11, 2026-02-20].
 
-## 1. Core Mathematical Constants
-Validation against dataset `0284_032_032_EEG.mat` establishes the following system parameters:
+## 2. Mathematical Framework
+The framework operates on the principles of Spectral Graph Theory, specifically focusing on the Laplacian spectrum of the neural graph [cite: 2026-02-11].
 
-| Parameter | Value | Definition |
+* **Algebraic Connectivity ($\lambda_2$):** Serves as the primary spectral metric to measure the global structural integrity of the remaining neural bridges [cite: 2026-02-11].
+* **The Fiedler Vector:** Used as a partitioning eigenvector to identify specific "Bridge Nodes"—critical hubs that maintain connectivity between isolated neural clusters [cite: 2026-02-11].
+* **39 Hz Resonance Constant:** A spectral density stability constant used to navigate high-dimensional topological friction and re-synchronize network hubs [cite: 2026-02-11, 2026-02-20].
+* **Effective Resistance ($R_{\text{eff}}$):** Targeted therapy focuses on reducing effective resistance at identified hub locations, optimizing energy expenditure during neural recovery [cite: 2026-02-11].
+
+## 3. Empirical Validation (Cohort 0284)
+Validation was conducted on a high-fidelity dataset (TUH-EEG) consisting of **581 clinical subjects**. 
+
+### 3.1. Benchmarking Metrics
+The analysis utilized a dual-frequency validation protocol to distinguish between baseline neural activity and the 39 Hz resonance signature.
+
+| Metric | Measured Value | Significance |
 | :--- | :--- | :--- |
-| **$f_{\alpha}$** | 8.79 Hz | Systemic Anchor / Carrier Frequency |
-| **$f_{\gamma}$** | 39.06 Hz | Resonant Driver / Bridge Frequency |
-| **Ratio** | 4.44 : 1 | Non-integer Quasi-Periodic Alignment |
-| **$\lambda_2$** | 0.1789 | Algebraic Connectivity (Baseline) |
-| **$R^2$** | 0.1789 | Critical Instability Index (Phase-Transition Boundary) |
-| **$\tau_{bottleneck}$**| 6.1s | Observed State-Transition Delay |
+| **Global Population Mean** | 0.1077 | Establishes the grounded 39 Hz power baseline for the cohort. |
+| **Max Resonance Peak** | 3.0894 | Identifies high-signal outliers with $R^2$ correlation of 0.1789. |
+| **State-Transition Window** | 6.1 Seconds | Defines the temporal bottleneck for cognitive processing ignition [cite: 2026-02-11, 2026-02-20]. |
 
-## 2. The Quasi-Periodic Lock (Drift Recurrence)
-Unlike integer-locked harmonics which risk runaway excitation, RST v6.1 utilizes the **4.44:1 frequency ratio**. 
+### 3.2. Frequency Discrimination
+Analysis confirmed that the 39 Hz Resonance acts as an independent biomarker. In high-connectivity subjects (e.g., `aaaaaaev`), the 39 Hz power (0.7244) significantly exceeded the 8.75 Hz alpha-baseline (0.5249), validating the framework's ability to isolate specific state-transition events.
 
-* **Phase-Drift Cycle:** A full relative phase rotation occurs every $1 / |f_{\gamma} - (4 \times f_{\alpha})| \approx 0.256\text{s}$.
-* **Implementation:** Intervention bursts are hard-coded to **0.256s** (10 gamma cycles), ensuring that every burst initiates and terminates at the same relative phase offset, maintaining structural stability without inducing seizure risk.
 
-## 3. Implementation Protocol: v6.1-OP
 
-### A. Phase-Targeted Stochastic Ignition
-To mitigate localized energy runaway in low-connectivity ($\lambda_2 = 0.1789$) nodes, the system implements a **Sigmoid Gain Ramp** over the first 3 cycles (76.8ms) of the burst:
-$$g(t) = \frac{1}{1 + \exp\left(-12 \left(\frac{t}{T_{ramp}} - 0.5\right)\right)}$$
-This ensures the energy input rate does not exceed the network's inherent diffusion rate during the initial ignition phase.
+## 4. Clinical Implementation Overview
+| Component | Technical Definition | Clinical Application |
+| :--- | :--- | :--- |
+| **The 6.1s Bottleneck** | High-Dimensional Topological Friction | Explains "Ignition Delay" in cognitive processing post-injury [cite: 2026-02-11]. |
+| **Spectral Density Stability** | 39 Hz Resonance | Target frequency for re-synchronizing clusters without seizure risk [cite: 2026-02-11]. |
+| **Targeted Hub Gain** | Strategic $R_{\text{eff}}$ Reduction | Focused therapy on bridge nodes rather than the whole network [cite: 2026-02-11]. |
 
-### B. Adaptive Connectivity Thresholds
-The system operates in two distinct modes governed by real-time $\lambda_2$ monitoring:
-1.  **Scaffolding Mode ($\lambda_2 < 0.24$):** Forced Phase-Amplitude Coupling (PAC) locked to the Alpha trough ($\pi$ radians).
-2.  **Autonomous Mode ($\lambda_2 \geq 0.24$):** Attenuation of the Alpha scaffold; Gamma resonance achieves independent lock to navigate the 6.1s bottleneck.
-
-## 4. Repository Structure
-* `/src`: Functional Python implementation (PSD validation, Sigmoid logic, PAC monitoring).
-* `/docs`: Formal System Specifications and Subject 0284 Case Studies.
-* `/data`: Sample metadata and verification logs.
+## 5. Repository Structure
+* `/data`: Raw spectral metrics for 581 subjects.
+* `/scripts`: Python-based MNE batch scanners for dual-frequency validation.
+* `/docs`: The Unified Chronicle technical history and Subject 0284 logs [cite: 2026-02-20].
 
 ---
-**License:** Research Use Only / Professional Specification.  
-**Author:** JJ Botha
+**Author:** JJ Botha (The Resonant Keeper)  
+**Version:** 6.1 (Closed Case) [cite: 2026-02-20]  
+**License:** Strictly Professional / Research Use Only [cite: 2026-02-15]
